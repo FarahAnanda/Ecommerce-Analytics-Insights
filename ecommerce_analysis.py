@@ -6,11 +6,6 @@ from datetime import date,datetime
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-# Upload all the files first
-from google.colab import files
-
-uploaded = files.upload()
-
 # Load the datasets
 orders = pd.read_csv("orders.csv")
 product_supplier = pd.read_csv("product_supplier.csv")
